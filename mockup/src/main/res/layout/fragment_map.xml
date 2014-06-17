@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:id="@+id/routesControl">
+
+        <ExpandableListView
+            android:id="@+id/map_route_list"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:choiceMode="singleChoice"
+            android:childDivider="@color/black">
+        </ExpandableListView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clearRoutesBtn"
+            android:layout_toRightOf="@id/map_route_list"
+            android:src="@drawable/ic_close" />
+    </LinearLayout>
+
+    <com.google.android.gms.maps.MapView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mapView" />
+
+</RelativeLayout>

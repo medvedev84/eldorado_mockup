@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MVideoMockup</string>
+    <string name="route_list_label">Маршрутный лист </string>
+    <string name="routes">Маршруты</string>
+    <string name="until">до </string>
+    <string name="status">Статус: </string>
+    <string name="order_label">Заказ</string>
+    <string name="details_address">Адрес: </string>
+    <string name="details_client">Клиент: </string>
+    <string name="details_completion">Комплектация: </string>
+    <string name="details_notes">Комментарий к доставке: </string>
+    <string name="details_notes_stub"> - </string>
+    <string name="no_routes_to_draw">Нет маршрутов для отображения</string>
+    <string name="google_service_unavailable">Сервисы Google Play недоступны</string>
+    <string name="google_service_disconnected">Утеряно соединенние с сервисами Google Play!</string>
+    <string name="drawing_routes">Построение маршрута&#8230;</string>
+    <string name="getting_coordinates">Получение координат&#8230;</string>
+    <string name="authenticating">Выполняется авторизация&#8230;</string>
+    <string name="loading">Получение данных&#8230;</string>
+    <string name="updating_status">Обновление статуса&#8230;</string>
+    <string name="initializing_map">Инициализация карты&#8230;</string>
+    <string name="updating_status_success">Статус изменен</string>
+    <string name="updating_status_error">Не удалось отправить данные на сервер</string>
+    <string name="can_not_login">Не удалось авторизоваться. Проверьте вводимые данные!</string>
+    <string name="can_not_get_data">Не удалось получить данные с сервера. Проверьте подключение!</string>
+    <string name="profile_logout_btn">Выход</string>
+    <string name="dialog_select_status_title">Изменить статус</string>
+    <string name="dialog_confirm_title">Подтверждение</string>
+    <string name="dialog_confirm_message">Вы действительно хотите сменить статус?</string>
+    <string name="dialog_select_delay_title">Выбрать задержку</string>
+    <string name="dialog_reject_title">Отменить заказ</string>
+    <string name="dialog_reject_body">Пожалуйста, укажите причину отмены заказа</string>
+    <string name="auth_username">Username</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_vehicle">Vehicle number</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="dialog_yes">Да</string>
+    <string name="dialog_no">Нет</string>
+    <string name="no_data">Нет данных</string>
+    <string name="dialog_can_not_change_status">Этот статус нельзя изменить</string>
+    <string name="dialog_can_select_status">Выберите статус, пожалуйста!</string>
+    <string name="internet_settings_dialog_title">Отсутствует подключение к интернет</string>
+    <string name="internet_settings_dialog_body">Отсутствует подключение к интернет. Проверить настройки подключения?</string>
+    <string name="sync_dialog_title">Запуск синхронизации</string>
+    <string name="sync_dialog_body">Доступно подключение к интернет. Запустить синхронизацию?</string>
+    <string name="sync_finished">Синхронизация завершена</string>
+    <string name="offline_mode">Приложение работает в оффлайн режиме</string>
+    <string name="wifi_enabled">Доступно подключение через WiFi</string>
+    <string name="mobile_internet_enabled">Доступно подключение через мобильный интернет</string>
+    <string name="not_connected">Отсутствует подключение к интернет</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="map_clear">X</string>
+    <string name="settings_server_host_label">Адрес сервера:</string>
+    <string name="settings_server_host_hint">10.100.100.3</string>
+    <string name="settings_server_port_label">Порт:</string>
+    <string name="settings_server_port_hint">5001</string>
+    <string name="settings_app_name_label">Имя приложения:</string>
+    <string name="settings_app_name_hint">mvideo4</string>
+    <string name="settings_protocol_type">Протокол:</string>
+    <string name="settings_protocol_type_http">HTTP</string>
+    <string name="settings_protocol_type_https">HTTPS</string>
+    <string name="settings_timeout">Таймаут:</string>
+    <string name="settings_timeout_init">60</string>
+    <string name="settings_restore_button">Восстановить</string>
+    <string name="settings_save_button">Сохранить</string>
+    <string name="settings_server_port_not_number">Введено некорректное значение</string>
+    <string name="settings_restored">Восстановлены значения по умолчанию</string>
+    <string name="settings_saved">Настройки сохранены</string>
+    <string name="settings_show_log">Показать лог</string>
+    <string name="settings_clear_log">Очистить лог</string>
+    <string name="settings_show_log_error">Системная ошибка. Не удалось получить лог приложения!</string>
+    <string name="settings_reset_local_data">Сбросить данные</string>
+    <string-array name="menu_titles_array">
+        <item>Заказы</item>
+        <item>Карта</item>
+        <item>Профиль</item>
+        <item>Настройки</item>
+        <item>Выход</item>
+    </string-array>
+    <string-array name="dialog_select_delay_array">
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>45 минут</item>
+        <item>1 час</item>
+        <item>1 час 15 минут</item>
+        <item>1 час 30 минут</item>
+        <item>1 час 45 минут</item>
+        <item>2 часа</item>
+        <item>2 часа 15 минут</item>
+        <item>2 часа 30 минут</item>
+        <item>2 часа 45 минут</item>
+        <item>3 часа</item>
+        <item>3 часа 15 минут</item>
+        <item>3 часа 30 минут</item>
+        <item>3 часа 45 минут</item>
+        <item>4 часа</item>
+    </string-array>
+</resources>
